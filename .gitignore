@@ -1,0 +1,37 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------- Virtual Environments ----------
+.venv/
+venv/
+env/
+
+# ---------- Environment Variables ----------
+.env
+.env.*
+
+# ---------- Streamlit ----------
+.streamlit/
+
+# ---------- Ollama / LLM Cache ----------
+.ollama/
+models/
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+storage/state.json
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- Temp Files ----------
+*.tmp
+*.temp
