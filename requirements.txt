@@ -1,0 +1,38 @@
+## ⚙️ Environment Setup
+
+### Python Version
+- Python 3.1+ is recommended (tested on 3.10).
+
+### Virtual Environment (Recommended)
+It is recommended to use a virtual environment to avoid dependency conflicts.
+
+Using `venv` (built-in Python module):
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# Linux / macOS
+source venv/bin/activate
+
+# Windows (PowerShell)
+venv\Scripts\Activate.ps1
+
+# Windows (CMD)
+venv\Scripts\activate.bat
+
+# Upgrade pip
+pip install --upgrade pip
+
+Using `conda`:
+# Create a conda environment
+conda create -n ai_agent python=3.10 -y
+
+# Activate the environment
+conda activate ai_agent
+
+### Install Dependencies
+Once the environment is activated, install all required packages:
+
+pip install -r requirements.txt
+
+Note: If using Ollama LLM client, follow installation instructions at https://docs.ollama.com/python
