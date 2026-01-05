@@ -175,6 +175,10 @@ intel-agent-framework/
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
+## 🎬 Demo Video
+
+Watch the full UI demonstration here: [Demo Video](demo_video/VIDEO_LINK.md)
+
 
 ## ⚡ Intel® OpenVINO™ Optimization
 
